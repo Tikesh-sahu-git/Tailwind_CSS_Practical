@@ -1,0 +1,14 @@
+.gallery-item {
+    transition: all 0.3s ease;
+}
+.gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.lightbox {
+    transition: opacity 0.3s ease;
+}
+.active-filter {
+    background-color: #3B82F6;
+    color: white;
+}
